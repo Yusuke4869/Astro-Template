@@ -7,7 +7,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --ignore-path .gitignore --write --ignore-unknown ./src/**/*.{js,jsx,ts,tsx,astro}",
+    "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ./src/**/*.{js,jsx,ts,tsx,astro}"
   },
   "packageManager": "yarn@3.6.3",
   "volta": {
@@ -15,5 +17,10 @@
   },
   "dependencies": {
     "astro": "^2.10.14"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "prettier": "^3.0.2",
+    "prettier-plugin-astro": "^0.12.0"
   }
 }
