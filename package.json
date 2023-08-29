@@ -8,6 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro}",
+    "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro} --fix",
     "format": "prettier --ignore-path .gitignore --write --ignore-unknown ./src/**/*.{js,jsx,ts,tsx,astro}",
     "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ./src/**/*.{js,jsx,ts,tsx,astro}"
   },
@@ -20,6 +22,10 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-astro": "^0.29.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "prettier": "^3.0.2",
     "prettier-plugin-astro": "^0.12.0"
   }
