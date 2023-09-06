@@ -90,9 +90,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@astrojs/telemetry@npm:3.0.0"
+"@astrojs/telemetry@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@astrojs/telemetry@npm:3.0.1"
   dependencies:
     ci-info: ^3.8.0
     debug: ^4.3.4
@@ -102,7 +102,7 @@ __metadata:
     is-wsl: ^3.0.0
     undici: ^5.23.0
     which-pm-runs: ^1.1.0
-  checksum: 3d6e18a96a322f345df7819a1a88aa4ab3133f0801fbb67cbb09da4f22f2d018cc75da853f6541ad279336c3a96138351b389e14a1347b363f75cab356628fc3
+  checksum: 06ccace72ea5f743cd832c8738080bc32efdd36351a2b157e68fe71c013713854a3aa2bb50f8dc6bf8bee3585d2ac446002205eff615c9d95425db93558c4f0a
   languageName: node
   linkType: hard
 
@@ -1673,13 +1673,13 @@ __metadata:
   linkType: soft
 
 "astro@npm:^3.0.0":
-  version: 3.0.3
-  resolution: "astro@npm:3.0.3"
+  version: 3.0.9
+  resolution: "astro@npm:3.0.9"
   dependencies:
     "@astrojs/compiler": ^2.0.1
     "@astrojs/internal-helpers": 0.2.0
     "@astrojs/markdown-remark": 3.0.0
-    "@astrojs/telemetry": 3.0.0
+    "@astrojs/telemetry": 3.0.1
     "@babel/core": ^7.22.10
     "@babel/generator": ^7.22.10
     "@babel/parser": ^7.22.10
@@ -1713,7 +1713,7 @@ __metadata:
     ora: ^7.0.1
     p-limit: ^4.0.0
     path-to-regexp: ^6.2.1
-    preferred-pm: ^3.0.3
+    preferred-pm: ^3.1.2
     prompts: ^2.4.2
     rehype: ^12.0.1
     resolve: ^1.22.4
@@ -1729,12 +1729,15 @@ __metadata:
     vfile: ^5.3.7
     vite: ^4.4.9
     vitefu: ^0.2.4
-    which-pm: ^2.0.0
+    which-pm: ^2.1.1
     yargs-parser: ^21.1.1
     zod: 3.21.1
+  dependenciesMeta:
+    sharp:
+      optional: true
   bin:
     astro: astro.js
-  checksum: 36fe8f4979459bbe7933079c8ef7349baae72134a1cc8e9f65771330bfc87345ae02561c015dc3d4f4e73286e638abffe50fedf8f61429c9b2b0c2740fbb393c
+  checksum: 895805dc93122ffbacb71f6c7dd3f8d7bf377347f239560119da48616f39366071bd8535d33b5fbd07f931dea136858e1fcab4f8fe60f2dfb3b67e06f28c05b6
   languageName: node
   linkType: hard
 
@@ -5627,15 +5630,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preferred-pm@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "preferred-pm@npm:3.0.3"
+"preferred-pm@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "preferred-pm@npm:3.1.2"
   dependencies:
     find-up: ^5.0.0
     find-yarn-workspace-root2: 1.2.16
     path-exists: ^4.0.0
     which-pm: 2.0.0
-  checksum: 0de0948cb6ae22213f2ad7868032d89f1e1443d9caabc22ceeb9d284f19d359d65b67fab178f4db5c8c6ca6ae34642bdc72730b70ab1899ea158e2677a88a6d0
+  checksum: d66019f36765c4e241197cd34e2718c03d7eff953b94dacb278df9326767ccc2744d4e0bcab265fd9bb036f704ed5f3909d02594cd5663bd640a160fe4c1446c
   languageName: node
   linkType: hard
 
@@ -7153,13 +7156,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-pm@npm:2.0.0, which-pm@npm:^2.0.0":
+"which-pm@npm:2.0.0":
   version: 2.0.0
   resolution: "which-pm@npm:2.0.0"
   dependencies:
     load-yaml-file: ^0.2.0
     path-exists: ^4.0.0
   checksum: e556635eaf237b3a101043a21c2890af045db40eac4df3575161d4fb834c2aa65456f81c60d8ea4db2d51fe5ac549d989eeabd17278767c2e4179361338ac5ce
+  languageName: node
+  linkType: hard
+
+"which-pm@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "which-pm@npm:2.1.1"
+  dependencies:
+    load-yaml-file: ^0.2.0
+    path-exists: ^4.0.0
+  checksum: 6e2aea3442d961f07cff1d712ddffee7f6ce2f582f5ebfe20967ca373affaa804d27d60bddc762b9ca4d11e8d2a9d5729aedd19992d4d0f1a218b146901dfd7e
   languageName: node
   linkType: hard
 
