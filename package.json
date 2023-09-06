@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^2.3.2",
-    "astro": "^2.10.14",
+    "astro": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -42,6 +42,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.2",
-    "prettier-plugin-astro": "^0.12.0"
+    "prettier-plugin-astro": "^0.12.0",
+    "typescript": "^5.2.2"
   }
 }
