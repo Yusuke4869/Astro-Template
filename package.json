@@ -23,7 +23,7 @@
   },
   "packageManager": "yarn@3.7.0",
   "volta": {
-    "node": "18.18.2"
+    "node": "18.19.0"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.0",
