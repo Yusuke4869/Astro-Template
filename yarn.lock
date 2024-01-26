@@ -1586,8 +1586,8 @@ __metadata:
   linkType: soft
 
 "astro@npm:^4.0.0":
-  version: 4.2.4
-  resolution: "astro@npm:4.2.4"
+  version: 4.2.5
+  resolution: "astro@npm:4.2.5"
   dependencies:
     "@astrojs/compiler": "npm:^2.5.0"
     "@astrojs/internal-helpers": "npm:0.2.1"
@@ -1609,6 +1609,7 @@ __metadata:
     clsx: "npm:^2.0.0"
     common-ancestor-path: "npm:^1.0.1"
     cookie: "npm:^0.6.0"
+    cssesc: "npm:^3.0.0"
     debug: "npm:^4.3.4"
     deterministic-object-hash: "npm:^2.0.1"
     devalue: "npm:^4.3.2"
@@ -1658,7 +1659,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: c69749982dcdc9c34e9c42fa5c0dd132fdbb7e72a7662ade0451ec6ecacd230bb2e478e5f9a8d2e72e397eea71fea6fbf6bb92ef448c6064d371bf66d28029fc
+  checksum: 46b11dd5b6b8307695fbd4ffb3957eb4290fc3b7bc180b51e0bff375589752b370c85ed78fce59c5123e728d32b3f6fe5938514f1373614d4edeee7881172780
   languageName: node
   linkType: hard
 
