@@ -11,8 +11,8 @@
     "astro": "astro",
     "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro}",
     "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro} --fix",
-    "format": "prettier --ignore-path .gitignore --write --ignore-unknown ./src/**/*.{js,jsx,ts,tsx,astro}",
-    "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ./src/**/*.{js,jsx,ts,tsx,astro}",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -32,7 +32,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/parser": "^6.5.0",
