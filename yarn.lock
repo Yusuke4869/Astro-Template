@@ -1513,8 +1513,8 @@ __metadata:
   linkType: soft
 
 "astro@npm:^4.0.0":
-  version: 4.4.0
-  resolution: "astro@npm:4.4.0"
+  version: 4.4.2
+  resolution: "astro@npm:4.4.2"
   dependencies:
     "@astrojs/compiler": "npm:^2.5.3"
     "@astrojs/internal-helpers": "npm:0.2.1"
@@ -1568,7 +1568,6 @@ __metadata:
     rehype: "npm:^13.0.1"
     resolve: "npm:^1.22.4"
     semver: "npm:^7.5.4"
-    server-destroy: "npm:^1.0.1"
     sharp: "npm:^0.32.6"
     shikiji: "npm:^0.9.19"
     shikiji-core: "npm:^0.9.19"
@@ -1587,7 +1586,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/ebcc6e3cb29304acbf93b258ae2570ef3994cfb6feabe292835d0eb286bc289a376e4304c8f21f37c1e7bb3264343b38dff4af7d34780c6cd8f90068e2be1901
+  checksum: 10c0/f0aca463e6106f21cd8b1e86f1e43cb7159d005ca701bd0f1a8b707212a171b385e6c72616952ece8089909a237825639f361f90375507d41b6398abfe960d71
   languageName: node
   linkType: hard
 
@@ -6285,13 +6284,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10c0/5160b06975a38b11c1ab55950cb5b8a23db78df88275d3d8a42ccf1f29e55112ac995b3a26a522c36e3b5f76b0445f1eef70d696b8c7862a2b4303d7b0e7609e
-  languageName: node
-  linkType: hard
-
-"server-destroy@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "server-destroy@npm:1.0.1"
-  checksum: 10c0/ab771f12b24cde1bc622cce0c14a1365f3ab0685937c641c762916fb43aa7a03d6c577cc4375ea5361d6bc1bb20ab689ec5723086e5798c6781edb61287e24b8
   languageName: node
   linkType: hard
 
