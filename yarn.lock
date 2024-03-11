@@ -82,8 +82,8 @@ __metadata:
   linkType: hard
 
 "@astrojs/react@npm:^3.0.0":
-  version: 3.0.10
-  resolution: "@astrojs/react@npm:3.0.10"
+  version: 3.1.0
+  resolution: "@astrojs/react@npm:3.1.0"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.2.0"
     ultrahtml: "npm:^1.3.0"
@@ -92,7 +92,7 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6
     react: ^17.0.2 || ^18.0.0
     react-dom: ^17.0.2 || ^18.0.0
-  checksum: 10c0/73062d9611c573ea936ea2dacc1550739f3e47c3ac8d3a567fde1353ba965840cae83c9c8bad3d3c58c212e91164ed7bd52e1c291681fb3f7cfc9f2d484eb3b2
+  checksum: 10c0/527eb9fc58362af9314204c4e2f69c2b55b4985a2a0ac0478b178811c916046fded8e14c2652c9f58df1e3b00eadfb157dd9608ffc62507cb58627bfc8417339
   languageName: node
   linkType: hard
 
