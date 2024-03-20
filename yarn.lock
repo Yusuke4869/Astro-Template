@@ -1504,7 +1504,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^7.0.0"
     astro: "npm:^4.0.0"
     eslint: "npm:^8.48.0"
-    eslint-plugin-astro: "npm:^0.31.0"
+    eslint-plugin-astro: "npm:^0.32.0"
     eslint-plugin-jsx-a11y: "npm:^6.7.1"
     husky: "npm:^9.0.0"
     lint-staged: "npm:^15.0.0"
@@ -2664,31 +2664,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-compat-utils@npm:^0.4.0":
-  version: 0.4.1
-  resolution: "eslint-compat-utils@npm:0.4.1"
+"eslint-compat-utils@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "eslint-compat-utils@npm:0.5.0"
   dependencies:
     semver: "npm:^7.5.4"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10c0/a96d3e2041a81ee188252b4fad6c2d999be8ae918e1ac70d29567f855b3762c8e83e31b5975f5676b58e436a53debf1588271dd195a988f1a2a2b50c0ac62e15
+  checksum: 10c0/aea9ff05df3f4d5db95361c13cb89baf3669fe34ad73e5771843dbb5cafdc7a9636c6f93814a29d0e0b87f147846ddef6672b71e28c4e73f889b5ea8d1d454d2
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:^0.31.0":
-  version: 0.31.4
-  resolution: "eslint-plugin-astro@npm:0.31.4"
+"eslint-plugin-astro@npm:^0.32.0":
+  version: 0.32.0
+  resolution: "eslint-plugin-astro@npm:0.32.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
     "@typescript-eslint/types": "npm:^5.25.0"
     astro-eslint-parser: "npm:^0.16.3"
-    eslint-compat-utils: "npm:^0.4.0"
+    eslint-compat-utils: "npm:^0.5.0"
+    globals: "npm:^13.0.0"
     postcss: "npm:^8.4.14"
     postcss-selector-parser: "npm:^6.0.10"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 10c0/82bbe72397cf58ad12b4fdffd1ecd7817fa2e45a3c8a74152b8f36cfee0991529b2399ce86ce50e71aee8560a8506e7f811ec6daff1a11a3e894e507b63295ed
+  checksum: 10c0/b0c76d2070bc3cc3cd704a223169d847fe055661b2be75512bb5a9700a8fb93f41b7a6edd57f97c322df25450c4a649a5888fa46a2fea0304f0a6aae948bdc0c
   languageName: node
   linkType: hard
 
@@ -3303,6 +3304,15 @@ __metadata:
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 10c0/758f9f258e7b19226bd8d4af5d3b0dcf7038780fb23d82e6f98932c44e239f884847f1766e8fa9cc5635ccb3204f7fa7314d4408dd4002a5e8ea827b4018f0a1
+  languageName: node
+  linkType: hard
+
+"globals@npm:^13.0.0":
+  version: 13.24.0
+  resolution: "globals@npm:13.24.0"
+  dependencies:
+    type-fest: "npm:^0.20.2"
+  checksum: 10c0/d3c11aeea898eb83d5ec7a99508600fbe8f83d2cf00cbb77f873dbf2bcb39428eff1b538e4915c993d8a3b3473fa71eeebfe22c9bb3a3003d1e26b1f2c8a42cd
   languageName: node
   linkType: hard
 
