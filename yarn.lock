@@ -1676,7 +1676,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^7.0.0"
     astro: "npm:^4.0.0"
     eslint: "npm:^8.48.0"
-    eslint-plugin-astro: "npm:^0.32.0"
+    eslint-plugin-astro: "npm:^0.33.0"
     eslint-plugin-jsx-a11y: "npm:^6.7.1"
     husky: "npm:^9.0.0"
     lint-staged: "npm:^15.0.0"
@@ -2875,9 +2875,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:^0.32.0":
-  version: 0.32.0
-  resolution: "eslint-plugin-astro@npm:0.32.0"
+"eslint-plugin-astro@npm:^0.33.0":
+  version: 0.33.0
+  resolution: "eslint-plugin-astro@npm:0.33.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -2889,7 +2889,7 @@ __metadata:
     postcss-selector-parser: "npm:^6.0.10"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 10c0/b0c76d2070bc3cc3cd704a223169d847fe055661b2be75512bb5a9700a8fb93f41b7a6edd57f97c322df25450c4a649a5888fa46a2fea0304f0a6aae948bdc0c
+  checksum: 10c0/cc08940a5924444928bff7710719eaa0e8b552ccee4d9fc2a2a5d57dd2455b5289e06fcdfcd385fa2eb8b9abb07260c124802e47336e1993cd941ea5fb4632ec
   languageName: node
   linkType: hard
 
