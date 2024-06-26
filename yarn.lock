@@ -1747,8 +1747,8 @@ __metadata:
   linkType: soft
 
 "astro@npm:^4.0.0":
-  version: 4.11.1
-  resolution: "astro@npm:4.11.1"
+  version: 4.11.3
+  resolution: "astro@npm:4.11.3"
   dependencies:
     "@astrojs/compiler": "npm:^2.8.1"
     "@astrojs/internal-helpers": "npm:0.4.1"
@@ -1799,7 +1799,6 @@ __metadata:
     preferred-pm: "npm:^3.1.3"
     prompts: "npm:^2.4.2"
     rehype: "npm:^13.0.1"
-    resolve: "npm:^1.22.8"
     semver: "npm:^7.6.2"
     sharp: "npm:^0.33.3"
     shiki: "npm:^1.9.0"
@@ -1819,7 +1818,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/965065e686168bb3a495932869ceef321fd9ee618fd41a35037316329853e6c5a67ecd0c741ef2104a77ef8a5d0dbb22bb680e9736b2ba1d17ba8f217b3bb834
+  checksum: 10c0/162853dff115a31d5aba996e27fe6a9e2c53437c3023a76a53f05a75a4567654bee71373327a88314c1f1da118b5021781124a703041ba995f34302f13461614
   languageName: node
   linkType: hard
 
@@ -4230,15 +4229,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "is-core-module@npm:2.13.0"
-  dependencies:
-    has: "npm:^1.0.3"
-  checksum: 10c0/a8e7f46f8cefd7c9f6f5d54f3dbf1c40bf79467b6612d6023421ec6ea7e8e4c22593b3963ff7a3f770db07bc19fccbe7987a550a8bc1a4d6ec4115db5e4c5dca
-  languageName: node
-  linkType: hard
-
 "is-data-view@npm:^1.0.1":
   version: 1.0.1
   resolution: "is-data-view@npm:1.0.1"
@@ -6031,13 +6021,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-parse@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "path-parse@npm:1.0.7"
-  checksum: 10c0/11ce261f9d294cc7a58d6a574b7f1b935842355ec66fba3c3fd79e0f036462eaf07d0aa95bb74ff432f9afef97ce1926c720988c6a7451d8a584930ae7de86e1
-  languageName: node
-  linkType: hard
-
 "path-scurry@npm:^1.10.1":
   version: 1.10.1
   resolution: "path-scurry@npm:1.10.1"
@@ -6423,32 +6406,6 @@ __metadata:
   version: 4.0.0
   resolution: "resolve-from@npm:4.0.0"
   checksum: 10c0/8408eec31a3112ef96e3746c37be7d64020cda07c03a920f5024e77290a218ea758b26ca9529fd7b1ad283947f34b2291c1c0f6aa0ed34acfdda9c6014c8d190
-  languageName: node
-  linkType: hard
-
-"resolve@npm:^1.22.8":
-  version: 1.22.8
-  resolution: "resolve@npm:1.22.8"
-  dependencies:
-    is-core-module: "npm:^2.13.0"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: bin/resolve
-  checksum: 10c0/07e179f4375e1fd072cfb72ad66d78547f86e6196c4014b31cb0b8bb1db5f7ca871f922d08da0fbc05b94e9fd42206f819648fa3b5b873ebbc8e1dc68fec433a
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@npm%3A^1.22.8#optional!builtin<compat/resolve>":
-  version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
-  dependencies:
-    is-core-module: "npm:^2.13.0"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: bin/resolve
-  checksum: 10c0/0446f024439cd2e50c6c8fa8ba77eaa8370b4180f401a96abf3d1ebc770ac51c1955e12764cde449fde3fff480a61f84388e3505ecdbab778f4bef5f8212c729
   languageName: node
   linkType: hard
 
@@ -7266,13 +7223,6 @@ __metadata:
   dependencies:
     has-flag: "npm:^4.0.0"
   checksum: 10c0/afb4c88521b8b136b5f5f95160c98dee7243dc79d5432db7efc27efb219385bbc7d9427398e43dd6cc730a0f87d5085ce1652af7efbe391327bc0a7d0f7fc124
-  languageName: node
-  linkType: hard
-
-"supports-preserve-symlinks-flag@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
-  checksum: 10c0/6c4032340701a9950865f7ae8ef38578d8d7053f5e10518076e6554a9381fa91bd9c6850193695c141f32b21f979c985db07265a758867bac95de05f7d8aeb39
   languageName: node
   linkType: hard
 
