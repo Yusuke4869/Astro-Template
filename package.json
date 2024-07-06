@@ -1,14 +1,13 @@
 {
   "name": "astro-template",
   "type": "module",
-  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
+    "astro": "astro",
     "dev": "astro dev",
     "start": "astro preview",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
     "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro}",
     "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro} --fix",
     "format": "prettier --write .",
