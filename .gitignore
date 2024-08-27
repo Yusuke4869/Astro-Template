@@ -17,9 +17,5 @@ pnpm-debug.log*
 .env
 .env.production
 
-# yarn
-.yarn/*
-!.yarn/releases
-
 # git hook
 prepare-commit-msg
