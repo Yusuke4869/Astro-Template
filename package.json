@@ -8,10 +8,9 @@
     "start": "astro preview",
     "build": "astro build",
     "preview": "astro preview",
-    "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro}",
-    "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx,astro} --fix",
+    "lint": "eslint --fix ./src/**/*.{ts,tsx,astro} && prettier --write .",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "check": "eslint ./src/**/*.{ts,tsx,astro} && prettier --check .",
     "prepare": "husky install"
   },
   "lint-staged": {
