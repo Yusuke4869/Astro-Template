@@ -11,7 +11,7 @@
     "lint": "eslint --fix ./src/**/*.{ts,tsx,astro} && prettier --write .",
     "format": "prettier --write .",
     "check": "eslint ./src/**/*.{ts,tsx,astro} && prettier --check .",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,astro}": [
