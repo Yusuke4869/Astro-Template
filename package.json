@@ -9,14 +9,16 @@
     "build": "astro build",
     "preview": "astro preview",
     "lint": "eslint --fix ./src/**/*.{ts,tsx,astro} && prettier --write .",
+    "lint:check": "eslint ./src/**/*.{ts,tsx,astro}",
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "check": "eslint ./src/**/*.{ts,tsx,astro} && prettier --check .",
     "prepare": "husky"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,astro}": [
-      "yarn lint:fix",
-      "yarn format"
+    "src/**/*.{ts,tsx,astro}": [
+      "pnpm lint:check",
+      "pnpm format:check"
     ]
   },
   "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1",
