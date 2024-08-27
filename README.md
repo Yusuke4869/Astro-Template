@@ -1,6 +1,6 @@
 # Template of Astro
 
-This is my Astro Template.
+My Astro Template
 
 ## License
 
