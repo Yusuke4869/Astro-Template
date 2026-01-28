@@ -13,7 +13,7 @@ importers:
         version: 4.4.2(@types/node@25.0.3)(@types/react-dom@19.2.3(@types/react@19.2.10))(@types/react@19.2.10)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(yaml@2.7.0)
       astro:
         specifier: ^5.0.0
-        version: 5.16.15(@types/node@25.0.3)(rollup@4.56.0)(typescript@5.9.3)(yaml@2.7.0)
+        version: 5.16.16(@types/node@25.0.3)(rollup@4.56.0)(typescript@5.9.3)(yaml@2.7.0)
       react:
         specifier: ^19.0.0
         version: 19.2.4
@@ -1085,8 +1085,8 @@ packages:
     resolution: {integrity: sha512-JepyLROIad6f44uyqMF6HKE2QbunNzp3mYKRcPoDGt0QkxXmH222FAFC64WTyQu2Kg8NNEXHTN/sWuUId9sSxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@5.16.15:
-    resolution: {integrity: sha512-+X1Z0NTi2pa5a0Te6h77Dgc44fYj63j1yx6+39Nvg05lExajxSq7b1Uj/gtY45zoum8fD0+h0nak+DnHighs3A==}
+  astro@5.16.16:
+    resolution: {integrity: sha512-MFlFvQ84ixaHyqB3uGwMhNHdBLZ3vHawyq3PqzQS2TNWiNfQrxp5ag6S3lX+Cvnh0MUcXX+UnJBPMBHjP1/1ZQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2165,8 +2165,8 @@ packages:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
 
-  lru-cache@11.2.4:
-    resolution: {integrity: sha512-B5Y16Jr9LB9dHVkh6ZevG+vAbOsNOYCX+sXvFWFu7B3Iz5mijW3zdbMyhsh8ANd2mSWBYdJgnqi+mL7/LrOPYg==}
+  lru-cache@11.2.5:
+    resolution: {integrity: sha512-vFrFJkWtJvJnD5hg+hJvVE8Lh/TcMzKnTgCWmtBipwI5yLX/iX+5UB2tfuyODF5E7k9xEzMdYgGqaSb1c0c5Yw==}
     engines: {node: 20 || >=22}
 
   lru-cache@5.1.1:
@@ -4227,7 +4227,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.16.15(@types/node@25.0.3)(rollup@4.56.0)(typescript@5.9.3)(yaml@2.7.0):
+  astro@5.16.16(@types/node@25.0.3)(rollup@4.56.0)(typescript@5.9.3)(yaml@2.7.0):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.5
@@ -5638,7 +5638,7 @@ snapshots:
     dependencies:
       js-tokens: 4.0.0
 
-  lru-cache@11.2.4: {}
+  lru-cache@11.2.5: {}
 
   lru-cache@5.1.1:
     dependencies:
@@ -6893,7 +6893,7 @@ snapshots:
       chokidar: 5.0.0
       destr: 2.0.5
       h3: 1.15.5
-      lru-cache: 11.2.4
+      lru-cache: 11.2.5
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
       ufo: 1.6.3
