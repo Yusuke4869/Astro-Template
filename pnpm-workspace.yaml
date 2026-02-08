@@ -1,4 +1,4 @@
-ignoredBuiltDependencies:
+onlyBuiltDependencies:
   - esbuild
   - lefthook
   - sharp
