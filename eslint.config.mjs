@@ -1,6 +1,7 @@
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginAstro from "eslint-plugin-astro";
+import pluginJsxA11y from "eslint-plugin-jsx-a11y";
 import pluginReact from "eslint-plugin-react";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginImport from "eslint-plugin-import";
@@ -9,20 +10,21 @@ import prettier from "eslint-config-prettier";
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   {
-    ignores: ["node_modules", "dist", "eslint.config.mjs"],
+    ignores: ["node_modules/", "dist/", ".astro/", "eslint.config.mjs"],
   },
   eslint.configs.recommended,
+  ...pluginAstro.configs.recommended,
+
+  // .astro ファイルがパースエラーになるのを防ぐ
+  ...tseslint.configs.strictTypeChecked.map((config) => ({ ...config, files: ["**/*.{ts,tsx}"] })),
+  ...tseslint.configs.stylisticTypeChecked.map((config) => ({ ...config, files: ["**/*.{ts,tsx}"] })),
+
   {
     rules: {
       "no-console": "warn",
       "prefer-template": "error",
     },
   },
-  ...pluginAstro.configs.recommended,
-
-  // .astro ファイルがパースエラーになるのを防ぐ
-  ...tseslint.configs.strictTypeChecked.map((config) => ({ ...config, files: ["**/*.{ts,tsx}"] })),
-  ...tseslint.configs.stylisticTypeChecked.map((config) => ({ ...config, files: ["**/*.{ts,tsx}"] })),
   {
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
@@ -31,9 +33,6 @@ export default [
         tsconfigRootDir: import.meta.dirname,
       },
     },
-  },
-  {
-    files: ["**/*.{ts,tsx}"],
     rules: {
       "@typescript-eslint/no-use-before-define": "error",
       "@typescript-eslint/consistent-type-imports": "error",
@@ -41,12 +40,17 @@ export default [
     },
   },
   {
-    files: ["**/*.tsx"],
-    plugins: pluginReact.configs.flat.recommended.plugins,
-    languageOptions: pluginReact.configs.flat.recommended.languageOptions,
+    files: ["**/*.{ts,tsx}"],
+    plugins: {
+      react: pluginReact,
+      "react-hooks": pluginReactHooks,
+      "jsx-a11y": pluginJsxA11y,
+    },
     rules: {
       ...pluginReact.configs.recommended.rules,
       ...pluginReact.configs["jsx-runtime"].rules,
+      ...pluginReactHooks.configs.recommended.rules,
+      ...pluginJsxA11y.flatConfigs.recommended.rules,
       "react/jsx-sort-props": "error",
       "react/prop-types": "off",
     },
@@ -54,15 +58,6 @@ export default [
       react: {
         version: "detect",
       },
-    },
-  },
-  {
-    files: ["**/*.{ts,tsx}"],
-    plugins: {
-      "react-hooks": pluginReactHooks,
-    },
-    rules: {
-      ...pluginReactHooks.configs.recommended.rules,
     },
   },
   {
@@ -90,9 +85,6 @@ export default [
       "import/resolver": {
         typescript: true,
         node: true,
-      },
-      "import/parsers": {
-        "@typescript-eslint/parser": [".ts", ".tsx", ".astro"],
       },
     },
   },
