@@ -13,7 +13,7 @@ importers:
         version: 5.0.7(@types/node@25.0.3)(@types/react-dom@19.2.3(@types/react@19.2.16))(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(yaml@2.8.3)
       astro:
         specifier: ^6.0.0
-        version: 6.4.3(@types/node@25.0.3)(rollup@4.61.1)(yaml@2.8.3)
+        version: 6.4.4(@types/node@25.0.3)(rollup@4.61.1)(yaml@2.8.3)
       react:
         specifier: ^19.0.0
         version: 19.2.7
@@ -1293,8 +1293,8 @@ packages:
     resolution: {integrity: sha512-+QDcgc7e+au6EZ0YjMmRRjNoQo5bDMlaR45aWDoFsuxQTCM9qmCHRoiKJPELgckJ8Wmr7vcfpa9eCDHBFh6G4w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@6.4.3:
-    resolution: {integrity: sha512-heArIk8zLcxuoj1WgBH2zGdAD8zKSU1mEcBvS6hYMEHRPlbtvB+4Y8ri9Z27hzeryvGaFgrH32zjghEfV2y07g==}
+  astro@6.4.4:
+    resolution: {integrity: sha512-hVe8tq3lqt/Dr0UyB//yUmQSlHMTU8scTiF/vQddQVahLE4TTaSdH5H0nb7OvRcwo0UmlAO8DWYar4jNaS7H+A==}
     engines: {node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4841,7 +4841,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@6.4.3(@types/node@25.0.3)(rollup@4.61.1)(yaml@2.8.3):
+  astro@6.4.4(@types/node@25.0.3)(rollup@4.61.1)(yaml@2.8.3):
     dependencies:
       '@astrojs/compiler': 4.0.0
       '@astrojs/internal-helpers': 0.10.0
