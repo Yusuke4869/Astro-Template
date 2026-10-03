@@ -16,7 +16,7 @@
   },
   "packageManager": "pnpm@11.28.3+sha512.d49760a13b1755948775a5d4cb1bc4ba871ff2dc941adf851630d044ed722f9b5be8be57bef93166098c80c706bd612c282d05526dd1d0ae660188c086820f35",
   "dependencies": {
-    "@astrojs/react": "^5.0.0",
+    "@astrojs/react": "^7.0.0",
     "astro": "^6.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
